@@ -1,0 +1,108 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", serif;
+  text-decoration: none;
+}
+body{
+  /* background: rgb(25, 25, 25); */
+  background: #eceae4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card{
+  width: 90%;
+  max-width: 400px;
+  /* background: linear-gradient(#88f4fd, #84ceff); */
+  background-color: rgb(25, 25, 25);
+  text-align: center;
+  padding: 30px 20px;
+  overflow: hidden;
+  border-radius:25px;
+  /* border: 1px solid gray; */
+  box-shadow: 0px 0px 10px rgba(128, 128, 128,.1);
+  height: 400px;
+}
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar input,button{
+  padding: 10px;
+  background-color: wheat;
+  border-radius: 25px;
+  border: 1px solid wheat;
+  outline: none;
+}
+
+.searchBar button{
+  display: flex;
+  border-radius: 50px;
+  padding: 8px;
+  color: wheat;
+  cursor: pointer;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  &:hover{
+    opacity: 90%;
+  }
+  &:active{
+    opacity: 50%;
+  }
+}
+
+.weatherUpdates{
+  margin-top: 30px;
+}
+.weatherIcon{
+  width: 100px;
+}
+
+.weatherUpdates h1{
+  font-size: 60px;
+  font-weight: 500;
+  color: wheat;
+}
+
+.weatherUpdates h2{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: -10px;
+  color: wheat;
+}
+
+.weatherUpdates .country{
+  font-size: 15px;
+  font-weight: 400;
+  color: wheat;
+}
+
+
+.material-icons{
+  color: #757575;
+}
+
+.otherDetails{
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 100px 100px;
+  column-gap: 100px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: lightgray;
+}
+
+#detailsHeading{
+  font-weight: 500;
+  color: wheat;
+  margin-top: 5px;
+}
